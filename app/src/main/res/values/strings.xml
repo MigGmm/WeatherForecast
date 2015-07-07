@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weather Forecast</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">About</string>
+    <string name="about_text">Android application made by Miguel Francisco García del Moral Muñoz</string>
+    <string name="title_activity_preferences">Settings</string>
+    <string name="fragment_today">Today</string>
+    <string name="fragment_forecast">Forecast</string>
+    <string name="today_pipe"> | </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Choice</string>
+    <string name="getting_weather_forecast">Getting weather information</string>
+    <string name="restart">Restart</string>
+
+    <!-- Error messages -->
+    <string name="connection_needed">Internet connection is needed</string>
+    <string name="error_getting_data">Error getting data</string>
+    <string name="error_getting_weather_icon">Error getting weather icon</string>
+    <string name="cant_locate">Can`t locate your device, please turn on location option.</string>
+
+    <string-array name="navigation_drawer_items">
+        <item>Today</item>
+        <item>Forecast</item>
+    </string-array>
+    <string-array name="week_days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <!-- Preferences -->
+    <string name="unit_of_length">Unit of length</string>
+
+    <string-array name="unit_length">
+        <item>Meters</item>
+        <item>Miles</item>
+    </string-array>
+
+    <string name="unit_of_temperature">Unit of temperature</string>
+
+    <string-array name="unit_temperature">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string-array name="values_units">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+</resources>

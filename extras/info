@@ -1,0 +1,3 @@
+keystore.store.password = tonetter06
+keystore.key.alias = weateherforecast
+keystore.key.password = tonetter06

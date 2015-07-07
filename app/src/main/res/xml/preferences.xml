@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="unitLength"
+        android:title="@string/unit_of_length"
+        android:summary="%s"
+        android:entries="@array/unit_length"
+        android:entryValues="@array/values_units"
+        android:defaultValue="0"/>
+
+    <ListPreference
+        android:key="unitTemperature"
+        android:title="@string/unit_of_temperature"
+        android:summary="%s"
+        android:entries="@array/unit_temperature"
+        android:entryValues="@array/values_units"
+        android:defaultValue="0"/>
+
+</PreferenceScreen>

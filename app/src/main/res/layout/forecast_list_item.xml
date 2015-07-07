@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivForecastIcon"
+        android:background="@drawable/overlay_weather_status_forecast"
+        android:layout_margin="15dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/ivForecastIcon"
+        android:layout_toEndOf="@+id/ivForecastIcon">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/tvForecastDay"
+            style="@style/forecast_day" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/tvForecastTemperature"
+                style="@style/forecast_temp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/tvForecastWeatherDesc"
+                style="@style/forecast_condition"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginLeft="30dip" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
